@@ -10,6 +10,9 @@ dataset providing the stations also uses RD-coordinates for foreign stations
 for illegal input. Input (far) outside the range _will be_ converted back and forth,
 but might lose precision.
 
+This library is based on [https://rd-wgs84.sourceforge.io/](https://rd-wgs84.sourceforge.io/) by Ronald Vogelaar,
+and therefore uses the _GNU General Public License Version 3_ license.
+
 ### Usage
 We use Maven as dependency manager, and publish artifacts to a publicly available repository.
 
